@@ -43,9 +43,9 @@ python -m jupyter lab
 ## Quy ước thư mục
 
 - `Lab01_2351260695.ipynb`: notebook sẽ chứa phần thực hành sau này.
-- `report_Lab01.md`: khung báo cáo Markdown.
-- `audio/input/`: tệp âm thanh đầu vào, không đưa dữ liệu lớn lên Git. Cell A tự tạo thư mục này nếu cần và chọn tệp đầu tiên theo thứ tự tên.
-- `audio/output/`: WAV/MP3 sinh ra khi làm bài.
-- `figures/`: các hình xuất từ notebook.
+- `report_Lab01.md`: báo cáo Markdown hoàn chỉnh, có bảng số liệu, hình minh họa và chú thích.
+- `audio/input/`: tệp âm thanh đầu vào được dùng cho thí nghiệm và được commit cùng bài.
+- `audio/output/`: WAV/MP3 sinh ra khi làm bài, được commit để có audio nghe thử.
+- `figures/`: các hình xuất từ notebook, được commit để chèn trực tiếp vào báo cáo.
 
 Khi bắt đầu làm bài, đặt một tệp đầu vào vào `audio/input/` và giữ tên các tệp đầu ra thể hiện rõ cấu hình (ví dụ: `music_lpf_2k.wav`). Nếu chưa đặt tệp, notebook tự dùng `audio/generated_conversation.wav` làm dữ liệu test. Nên mở VS Code tại thư mục `Lab01_2351260695_LoAnhViet` để `Path.cwd()` trỏ đúng project.
