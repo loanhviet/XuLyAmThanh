@@ -1,0 +1,9 @@
+# Lab 1: môi trường phân tích và xử lý âm thanh
+numpy>=1.26,<3
+scipy>=1.11,<2
+matplotlib>=3.8,<4
+librosa>=0.10.2,<1
+soundfile>=0.12,<1
+pydub>=0.25,<1
+jupyterlab>=4,<5
+ipykernel>=6,<7

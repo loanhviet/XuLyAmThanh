@@ -1,0 +1,14 @@
+# Python and Jupyter runtime files
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# Keep the directory structure, but exclude source and generated audio.
+audio/input/*
+!audio/input/.gitkeep
+audio/output/*
+!audio/output/.gitkeep
+
+# Generated plots are reproducible from the notebook.
+figures/*
+!figures/.gitkeep

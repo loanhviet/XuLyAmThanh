@@ -1,0 +1,45 @@
+{
+  "seed": 42,
+  "sample_rate_hz": 44100,
+  "channels": 1,
+  "bit_depth": 16,
+  "timeline": [
+    {
+      "file": "01_normal_speaker_a.wav",
+      "speaker": "speaker_a",
+      "text": "Đây là đoạn nói dùng cho bài thực hành xử lý âm thanh.",
+      "duration_seconds": 3.0,
+      "white_noise": false
+    },
+    {
+      "silence_seconds": 1.2
+    },
+    {
+      "file": "02_loud_speaker_b.wav",
+      "speaker": "speaker_b",
+      "text": "Được rồi. Hãy xem dạng sóng và năng lượng của tín hiệu.",
+      "duration_seconds": 3.0,
+      "white_noise": false
+    },
+    {
+      "silence_seconds": 1.0
+    },
+    {
+      "file": "03_quiet_speaker_a.wav",
+      "speaker": "speaker_a",
+      "text": "Chào bạn. Hôm nay chúng ta kiểm tra tín hiệu âm thanh.",
+      "duration_seconds": 3.0,
+      "white_noise": false
+    },
+    {
+      "silence_seconds": 1.0
+    },
+    {
+      "file": "04_speech_white_noise_speaker_b.wav",
+      "speaker": "speaker_b",
+      "text": "Tôi đã sẵn sàng thử bộ lọc, lượng tử hóa và lấy mẫu lại.",
+      "duration_seconds": 3.0,
+      "white_noise": true
+    }
+  ]
+}
