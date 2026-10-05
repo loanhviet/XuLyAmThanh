@@ -1,0 +1,416 @@
+{
+  "data_source": "phone_recordings",
+  "archive": "/home/viet/Downloads/data.zip",
+  "archive_sha256": "ae8bc7b20348ca30b103199ac05194a3f81d86e89c26732d92f203482102f323",
+  "name_mapping": "word.m4a -> word_01.wav; word1.m4a -> word_02.wav; ...; word4.m4a -> word_05.wav",
+  "note": "User-supplied phone recordings; speaker and recording environment details not documented.",
+  "records": [
+    {
+      "zip_member": "data/ba.m4a",
+      "original_name": "ba.m4a",
+      "label": "ba",
+      "canonical_name": "ba_01.m4a",
+      "dataset_file": "ba/ba_01.wav",
+      "source_sha256": "8966a698e539426fd97a908fb3d6065ebead0d0371f79bd7501e53c591c29b39",
+      "original_duration_s": 2.474667,
+      "original_audio": {
+        "codec_name": "alac",
+        "sample_rate": "48000",
+        "channels": 1
+      },
+      "wav_sha256": "093dc347c960b4554ecf511770b5de726d9434dd4104b4f27ffe196d0fd53999",
+      "duration_s": 2.4
+    },
+    {
+      "zip_member": "data/ba1.m4a",
+      "original_name": "ba1.m4a",
+      "label": "ba",
+      "canonical_name": "ba_02.m4a",
+      "dataset_file": "ba/ba_02.wav",
+      "source_sha256": "cd3c7eae2565cfd88f62166272a2dbe13e4205cc2d61f08043427a638cb5ad29",
+      "original_duration_s": 1.792,
+      "original_audio": {
+        "codec_name": "alac",
+        "sample_rate": "48000",
+        "channels": 1
+      },
+      "wav_sha256": "dc746fb1553be908dad7afcaedf915375971c69dcbe525ed695f6c166ab8d4ba",
+      "duration_s": 1.73275
+    },
+    {
+      "zip_member": "data/ba2.m4a",
+      "original_name": "ba2.m4a",
+      "label": "ba",
+      "canonical_name": "ba_03.m4a",
+      "dataset_file": "ba/ba_03.wav",
+      "source_sha256": "fa79af79704d6b143b7fd2f40d8f28c4be7305e06767b427c10c3734369e2944",
+      "original_duration_s": 1.877333,
+      "original_audio": {
+        "codec_name": "alac",
+        "sample_rate": "48000",
+        "channels": 1
+      },
+      "wav_sha256": "f2abd0795e9e9011cdab2129fb9b1d76aa95febea29ff8624e89e9cfec9ec30e",
+      "duration_s": 1.8233125
+    },
+    {
+      "zip_member": "data/ba3.m4a",
+      "original_name": "ba3.m4a",
+      "label": "ba",
+      "canonical_name": "ba_04.m4a",
+      "dataset_file": "ba/ba_04.wav",
+      "source_sha256": "50c1242248ae5846d5923657e707d43bde230dc21322ea2b71aa5dba09550a50",
+      "original_duration_s": 2.218667,
+      "original_audio": {
+        "codec_name": "alac",
+        "sample_rate": "48000",
+        "channels": 1
+      },
+      "wav_sha256": "b00144c0266cc2b12640833c68f99db10df1db6e844ca355749893950a768c79",
+      "duration_s": 2.14275
+    },
+    {
+      "zip_member": "data/ba4.m4a",
+      "original_name": "ba4.m4a",
+      "label": "ba",
+      "canonical_name": "ba_05.m4a",
+      "dataset_file": "ba/ba_05.wav",
+      "source_sha256": "f3af6ddb4fd83c975868f3ebc85fac19794ccfaca7f6e4985fb5f1f432d821c3",
+      "original_duration_s": 1.962667,
+      "original_audio": {
+        "codec_name": "alac",
+        "sample_rate": "48000",
+        "channels": 1
+      },
+      "wav_sha256": "6501eca1c9538b5ded9ef83b1eae8b1b8b95e8d9d47688f7f4585a06700431c5",
+      "duration_s": 1.8995
+    },
+    {
+      "zip_member": "data/bon.m4a",
+      "original_name": "bon.m4a",
+      "label": "bon",
+      "canonical_name": "bon_01.m4a",
+      "dataset_file": "bon/bon_01.wav",
+      "source_sha256": "b5119b2cc7c309f20a11840089cd8fe1bdd604a8298ca256bf4d9ebbe135f926",
+      "original_duration_s": 1.962667,
+      "original_audio": {
+        "codec_name": "alac",
+        "sample_rate": "48000",
+        "channels": 1
+      },
+      "wav_sha256": "151c336f4937d72f6e04769d86acb9f3f4bc9713f26ad12aa6d4554d4192aa34",
+      "duration_s": 1.9218125
+    },
+    {
+      "zip_member": "data/bon1.m4a",
+      "original_name": "bon1.m4a",
+      "label": "bon",
+      "canonical_name": "bon_02.m4a",
+      "dataset_file": "bon/bon_02.wav",
+      "source_sha256": "5e66305be4f5103d84d6238da33e2a26567ba62d0f1be0b457affe6a73c066b8",
+      "original_duration_s": 2.048,
+      "original_audio": {
+        "codec_name": "alac",
+        "sample_rate": "48000",
+        "channels": 1
+      },
+      "wav_sha256": "9a01dda81e17c127474a5d036751cf9e8eb22137370a8d8218555a8a3caf9dd8",
+      "duration_s": 2.032625
+    },
+    {
+      "zip_member": "data/bon2.m4a",
+      "original_name": "bon2.m4a",
+      "label": "bon",
+      "canonical_name": "bon_03.m4a",
+      "dataset_file": "bon/bon_03.wav",
+      "source_sha256": "359303a50e42d1ad56a99d885d093402e4264e3ba90eccfd5dafedb2711c90f8",
+      "original_duration_s": 2.304,
+      "original_audio": {
+        "codec_name": "alac",
+        "sample_rate": "48000",
+        "channels": 1
+      },
+      "wav_sha256": "4e12ada8c04eaff87d628f3af6993f74d69497207ec99b588040992d9655787e",
+      "duration_s": 2.2998125
+    },
+    {
+      "zip_member": "data/bon3.m4a",
+      "original_name": "bon3.m4a",
+      "label": "bon",
+      "canonical_name": "bon_04.m4a",
+      "dataset_file": "bon/bon_04.wav",
+      "source_sha256": "e247567b87352fef66aa0785e7025ed1979e063eb6a1b38d1908b6b57c0f4e4d",
+      "original_duration_s": 1.877333,
+      "original_audio": {
+        "codec_name": "alac",
+        "sample_rate": "48000",
+        "channels": 1
+      },
+      "wav_sha256": "752e485fa704eee7ce8d84877b9466e1dab20d598a81ecc9e051960eaa29d2ae",
+      "duration_s": 1.8696875
+    },
+    {
+      "zip_member": "data/bon4.m4a",
+      "original_name": "bon4.m4a",
+      "label": "bon",
+      "canonical_name": "bon_05.m4a",
+      "dataset_file": "bon/bon_05.wav",
+      "source_sha256": "038cf941ea2a9be432c381a19e25219bd41e4262871dac7d6f1d8fded1a3d08c",
+      "original_duration_s": 2.048,
+      "original_audio": {
+        "codec_name": "alac",
+        "sample_rate": "48000",
+        "channels": 1
+      },
+      "wav_sha256": "4931677a6df806dfc6baebf86da12ec606d1d537c7d0d5b76e85df2e0df73aa4",
+      "duration_s": 2.0
+    },
+    {
+      "zip_member": "data/hai.m4a",
+      "original_name": "hai.m4a",
+      "label": "hai",
+      "canonical_name": "hai_01.m4a",
+      "dataset_file": "hai/hai_01.wav",
+      "source_sha256": "65d913cb897f67b717da59f376863110a7b7348e931996b364a4472ea239ea55",
+      "original_duration_s": 2.218667,
+      "original_audio": {
+        "codec_name": "alac",
+        "sample_rate": "48000",
+        "channels": 1
+      },
+      "wav_sha256": "32577c5687ed9114edb63cca7fcd0fd105315005f145ae42a4b397358b4a3887",
+      "duration_s": 2.1544375
+    },
+    {
+      "zip_member": "data/hai1.m4a",
+      "original_name": "hai1.m4a",
+      "label": "hai",
+      "canonical_name": "hai_02.m4a",
+      "dataset_file": "hai/hai_02.wav",
+      "source_sha256": "c95fcec904a8fd6e99c99e3182ad3a4a8b8f6f9008655c4e99cb271afb24e8b9",
+      "original_duration_s": 1.792,
+      "original_audio": {
+        "codec_name": "alac",
+        "sample_rate": "48000",
+        "channels": 1
+      },
+      "wav_sha256": "46c079f851d530dddd0e04547faa095d7d922239be5bba3e8ad72433a83d9bf1",
+      "duration_s": 1.7380625
+    },
+    {
+      "zip_member": "data/hai2.m4a",
+      "original_name": "hai2.m4a",
+      "label": "hai",
+      "canonical_name": "hai_03.m4a",
+      "dataset_file": "hai/hai_03.wav",
+      "source_sha256": "67730220e8d7f4580c6f502cfd98909a70a50990bb6635c535e4a41bc0e901e1",
+      "original_duration_s": 2.048,
+      "original_audio": {
+        "codec_name": "alac",
+        "sample_rate": "48000",
+        "channels": 1
+      },
+      "wav_sha256": "2101ed561ce9d09765076fb3b01da32da52ac0f02fe9c6fd6282f52f9af83151",
+      "duration_s": 2.047
+    },
+    {
+      "zip_member": "data/hai3.m4a",
+      "original_name": "hai3.m4a",
+      "label": "hai",
+      "canonical_name": "hai_04.m4a",
+      "dataset_file": "hai/hai_04.wav",
+      "source_sha256": "2b40e052aa1bfa18582dbd743077b6237a289cd3e47fd0e909b8256d67127367",
+      "original_duration_s": 2.048,
+      "original_audio": {
+        "codec_name": "alac",
+        "sample_rate": "48000",
+        "channels": 1
+      },
+      "wav_sha256": "ca714b922bc4e051f76aa8dc2137cd019daa86527ff6e4ce1e9e1cb037becd31",
+      "duration_s": 2.0289375
+    },
+    {
+      "zip_member": "data/hai4.m4a",
+      "original_name": "hai4.m4a",
+      "label": "hai",
+      "canonical_name": "hai_05.m4a",
+      "dataset_file": "hai/hai_05.wav",
+      "source_sha256": "afdbc2a44377400670a7d0c8eb31ea606410d74368771c421443ea7efbb040bc",
+      "original_duration_s": 2.389333,
+      "original_audio": {
+        "codec_name": "alac",
+        "sample_rate": "48000",
+        "channels": 1
+      },
+      "wav_sha256": "318a814c40bf5af8b57379cd54434e34474ac52364c2098915036621ef9a6ee9",
+      "duration_s": 2.369625
+    },
+    {
+      "zip_member": "data/khong.m4a",
+      "original_name": "khong.m4a",
+      "label": "khong",
+      "canonical_name": "khong_01.m4a",
+      "dataset_file": "khong/khong_01.wav",
+      "source_sha256": "eee8d924123b325338e96766c499e2a6847d7ac741cc028694fbb3cc07d73ecd",
+      "original_duration_s": 1.706667,
+      "original_audio": {
+        "codec_name": "alac",
+        "sample_rate": "48000",
+        "channels": 1
+      },
+      "wav_sha256": "bb84baa5483a179a9defb5ff77e8ebd1eaa75e7e80c48a9a3545ee19789bcd4b",
+      "duration_s": 1.6675
+    },
+    {
+      "zip_member": "data/khong1.m4a",
+      "original_name": "khong1.m4a",
+      "label": "khong",
+      "canonical_name": "khong_02.m4a",
+      "dataset_file": "khong/khong_02.wav",
+      "source_sha256": "26a88bc64d8c99ca11c2acfbdefa3e19d7597cb59a0968deace3112ed7a74d5e",
+      "original_duration_s": 1.962667,
+      "original_audio": {
+        "codec_name": "alac",
+        "sample_rate": "48000",
+        "channels": 1
+      },
+      "wav_sha256": "a808199c3ec79f74fd5a73bf5840d464dce78642f5531b2ea9b06045e11ec157",
+      "duration_s": 1.9
+    },
+    {
+      "zip_member": "data/khong2.m4a",
+      "original_name": "khong2.m4a",
+      "label": "khong",
+      "canonical_name": "khong_03.m4a",
+      "dataset_file": "khong/khong_03.wav",
+      "source_sha256": "8b7456f4176b3d536dbf6b33a851acbffb81ef321ada4f0eed41fd34e9b8fa22",
+      "original_duration_s": 2.133333,
+      "original_audio": {
+        "codec_name": "alac",
+        "sample_rate": "48000",
+        "channels": 1
+      },
+      "wav_sha256": "2356e0357ef58c27a6aee6747287d621e68e8968a4d2fed9b49ba8e59489a16d",
+      "duration_s": 2.056625
+    },
+    {
+      "zip_member": "data/khong3.m4a",
+      "original_name": "khong3.m4a",
+      "label": "khong",
+      "canonical_name": "khong_04.m4a",
+      "dataset_file": "khong/khong_04.wav",
+      "source_sha256": "6d517b1e2879d02f0b1927c75d551a1b2f3885f6bb28eae25d7fad8c06b3c8bd",
+      "original_duration_s": 1.792,
+      "original_audio": {
+        "codec_name": "alac",
+        "sample_rate": "48000",
+        "channels": 1
+      },
+      "wav_sha256": "a4525b20fdb3057902480db072c579ff26a56bfc407373eb0321d0948db5fd44",
+      "duration_s": 1.786
+    },
+    {
+      "zip_member": "data/khong4.m4a",
+      "original_name": "khong4.m4a",
+      "label": "khong",
+      "canonical_name": "khong_05.m4a",
+      "dataset_file": "khong/khong_05.wav",
+      "source_sha256": "5ce66673722c121249c75f1901c01d0a2fb96040d621d446ec17b10d273e070d",
+      "original_duration_s": 2.474667,
+      "original_audio": {
+        "codec_name": "alac",
+        "sample_rate": "48000",
+        "channels": 1
+      },
+      "wav_sha256": "a568068cf1a0c1c1ca8642fe7be55d025aa77dec42fdf4e0106f3da1d5521bee",
+      "duration_s": 2.4
+    },
+    {
+      "zip_member": "data/mot.m4a",
+      "original_name": "mot.m4a",
+      "label": "mot",
+      "canonical_name": "mot_01.m4a",
+      "dataset_file": "mot/mot_01.wav",
+      "source_sha256": "7d1c1a8b035f0e4050195d8011bc0b6f803f2099feb754b8f96ac0d6c7a01b53",
+      "original_duration_s": 1.877333,
+      "original_audio": {
+        "codec_name": "alac",
+        "sample_rate": "48000",
+        "channels": 1
+      },
+      "wav_sha256": "4407be2e84235934c7c6707ec07dc66611b5445d27da453d98b38f71ef0f4cda",
+      "duration_s": 1.84425
+    },
+    {
+      "zip_member": "data/mot1.m4a",
+      "original_name": "mot1.m4a",
+      "label": "mot",
+      "canonical_name": "mot_02.m4a",
+      "dataset_file": "mot/mot_02.wav",
+      "source_sha256": "c7f40bddf8013b8a051db98630d2a83cff07344fa24faa273a77b406a35bc1db",
+      "original_duration_s": 1.792,
+      "original_audio": {
+        "codec_name": "alac",
+        "sample_rate": "48000",
+        "channels": 1
+      },
+      "wav_sha256": "54482d8674ed9e17af80a0d59eba204b0e257ce88cf6478ca27b28288feafefe",
+      "duration_s": 1.7499375
+    },
+    {
+      "zip_member": "data/mot2.m4a",
+      "original_name": "mot2.m4a",
+      "label": "mot",
+      "canonical_name": "mot_03.m4a",
+      "dataset_file": "mot/mot_03.wav",
+      "source_sha256": "df9a1e255c4a4717c5b7853af0f1785fa86e9cc13fb9e7383f33669f9b080b6d",
+      "original_duration_s": 1.877333,
+      "original_audio": {
+        "codec_name": "alac",
+        "sample_rate": "48000",
+        "channels": 1
+      },
+      "wav_sha256": "973465325e7e9d51538d47a50d5b48800cc1212018c66825994f3d6b4af154e0",
+      "duration_s": 1.8520625
+    },
+    {
+      "zip_member": "data/mot3.m4a",
+      "original_name": "mot3.m4a",
+      "label": "mot",
+      "canonical_name": "mot_04.m4a",
+      "dataset_file": "mot/mot_04.wav",
+      "source_sha256": "4afc65294ce2c97f97652b6c318b01e172235bf97d5d27db43977a5ceaec9c45",
+      "original_duration_s": 1.792,
+      "original_audio": {
+        "codec_name": "alac",
+        "sample_rate": "48000",
+        "channels": 1
+      },
+      "wav_sha256": "a6eb954e77648f88f70e880ace21c9022035ae8cf3d749e9b4adef7fb0cab794",
+      "duration_s": 1.7235
+    },
+    {
+      "zip_member": "data/mot4.m4a",
+      "original_name": "mot4.m4a",
+      "label": "mot",
+      "canonical_name": "mot_05.m4a",
+      "dataset_file": "mot/mot_05.wav",
+      "source_sha256": "d46298a07b3f1fd2857852e87471e1286b0d2a4e8e6205c9ee7393ba0b3c3986",
+      "original_duration_s": 2.048,
+      "original_audio": {
+        "codec_name": "alac",
+        "sample_rate": "48000",
+        "channels": 1
+      },
+      "wav_sha256": "eda2cc674e4466362a92b9b76364d727d4cce23d03c7ee9a210118da6b1b7529",
+      "duration_s": 1.9756875
+    }
+  ],
+  "conversion": {
+    "sample_rate": 16000,
+    "channels": 1,
+    "subtype": "PCM_16",
+    "tool": "ffmpeg",
+    "trimmed": false
+  }
+}

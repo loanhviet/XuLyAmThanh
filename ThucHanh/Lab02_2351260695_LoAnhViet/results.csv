@@ -1,0 +1,11 @@
+﻿experiment,data_source,file,true_label,predicted_label,correct,top1_label,top1_score,top2_label,top2_score,top3_label,top3_score
+baseline,phone_recordings,khong/khong_04.wav,khong,khong,True,khong,4.858885656665763,bon,5.828504076490192,mot,5.90475423545414
+baseline,phone_recordings,khong/khong_05.wav,khong,khong,True,khong,5.229068668176066,bon,6.431817169419922,mot,6.650536314288156
+baseline,phone_recordings,mot/mot_04.wav,mot,bon,False,bon,4.893333389637045,mot,5.213654520044418,khong,6.3698304511535575
+baseline,phone_recordings,mot/mot_05.wav,mot,bon,False,bon,4.82745594854709,mot,5.478917029690347,khong,7.049902402674609
+baseline,phone_recordings,hai/hai_04.wav,hai,hai,True,hai,4.9286242961243625,ba,5.735822508295521,bon,6.707861398135631
+baseline,phone_recordings,hai/hai_05.wav,hai,hai,True,hai,5.495505216864901,ba,6.681879955680331,bon,7.965620729996164
+baseline,phone_recordings,ba/ba_04.wav,ba,ba,True,ba,4.96478389925043,hai,5.89045046102293,mot,6.423371474237145
+baseline,phone_recordings,ba/ba_05.wav,ba,ba,True,ba,5.376698738569048,hai,6.904273588812911,bon,7.349912379116854
+baseline,phone_recordings,bon/bon_04.wav,bon,bon,True,bon,5.231333820432124,mot,5.4003471409815464,hai,7.475753839418629
+baseline,phone_recordings,bon/bon_05.wav,bon,bon,True,bon,5.751116608162556,mot,6.696132462003736,khong,7.385539975288819

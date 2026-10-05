@@ -1,0 +1,20 @@
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+*.tmp.wav
+
+# Original phone copies and pre-import recordings are kept locally.
+/phone_audio/
+/dataset_backups/
+/dataset/*/.gitkeep
+
+# Only the four submission/result tables are versioned.
+/*.csv
+!/results.csv
+!/results_all.csv
+!/experiments.csv
+!/endpoint.csv
+
+# Other configurations' templates can be rebuilt by Run All.
+/templates_*.npz
+!/templates_baseline.npz

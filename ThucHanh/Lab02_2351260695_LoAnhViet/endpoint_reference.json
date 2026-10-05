@@ -1,0 +1,72 @@
+{
+  "endpoint_method": "relative",
+  "top_db": 35,
+  "margin_ms": 50,
+  "note": "Measured before the adaptive endpoint change; same 3-train/2-test split per class. Not used to select new thresholds.",
+  "feature_config": {
+    "sr": 16000,
+    "frame": 400,
+    "hop": 160,
+    "n_fft": 512,
+    "n_mels": 24,
+    "n_mfcc": 13,
+    "alpha": 0.97,
+    "cmn": true
+  },
+  "dataset_files_sha256": {
+    "ba/ba_01.wav": "093dc347c960b4554ecf511770b5de726d9434dd4104b4f27ffe196d0fd53999",
+    "ba/ba_02.wav": "dc746fb1553be908dad7afcaedf915375971c69dcbe525ed695f6c166ab8d4ba",
+    "ba/ba_03.wav": "f2abd0795e9e9011cdab2129fb9b1d76aa95febea29ff8624e89e9cfec9ec30e",
+    "ba/ba_04.wav": "b00144c0266cc2b12640833c68f99db10df1db6e844ca355749893950a768c79",
+    "ba/ba_05.wav": "6501eca1c9538b5ded9ef83b1eae8b1b8b95e8d9d47688f7f4585a06700431c5",
+    "bon/bon_01.wav": "151c336f4937d72f6e04769d86acb9f3f4bc9713f26ad12aa6d4554d4192aa34",
+    "bon/bon_02.wav": "9a01dda81e17c127474a5d036751cf9e8eb22137370a8d8218555a8a3caf9dd8",
+    "bon/bon_03.wav": "4e12ada8c04eaff87d628f3af6993f74d69497207ec99b588040992d9655787e",
+    "bon/bon_04.wav": "752e485fa704eee7ce8d84877b9466e1dab20d598a81ecc9e051960eaa29d2ae",
+    "bon/bon_05.wav": "4931677a6df806dfc6baebf86da12ec606d1d537c7d0d5b76e85df2e0df73aa4",
+    "hai/hai_01.wav": "32577c5687ed9114edb63cca7fcd0fd105315005f145ae42a4b397358b4a3887",
+    "hai/hai_02.wav": "46c079f851d530dddd0e04547faa095d7d922239be5bba3e8ad72433a83d9bf1",
+    "hai/hai_03.wav": "2101ed561ce9d09765076fb3b01da32da52ac0f02fe9c6fd6282f52f9af83151",
+    "hai/hai_04.wav": "ca714b922bc4e051f76aa8dc2137cd019daa86527ff6e4ce1e9e1cb037becd31",
+    "hai/hai_05.wav": "318a814c40bf5af8b57379cd54434e34474ac52364c2098915036621ef9a6ee9",
+    "khong/khong_01.wav": "bb84baa5483a179a9defb5ff77e8ebd1eaa75e7e80c48a9a3545ee19789bcd4b",
+    "khong/khong_02.wav": "a808199c3ec79f74fd5a73bf5840d464dce78642f5531b2ea9b06045e11ec157",
+    "khong/khong_03.wav": "2356e0357ef58c27a6aee6747287d621e68e8968a4d2fed9b49ba8e59489a16d",
+    "khong/khong_04.wav": "a4525b20fdb3057902480db072c579ff26a56bfc407373eb0321d0948db5fd44",
+    "khong/khong_05.wav": "a568068cf1a0c1c1ca8642fe7be55d025aa77dec42fdf4e0106f3da1d5521bee",
+    "mot/mot_01.wav": "4407be2e84235934c7c6707ec07dc66611b5445d27da453d98b38f71ef0f4cda",
+    "mot/mot_02.wav": "54482d8674ed9e17af80a0d59eba204b0e257ce88cf6478ca27b28288feafefe",
+    "mot/mot_03.wav": "973465325e7e9d51538d47a50d5b48800cc1212018c66825994f3d6b4af154e0",
+    "mot/mot_04.wav": "a6eb954e77648f88f70e880ace21c9022035ae8cf3d749e9b4adef7fb0cab794",
+    "mot/mot_05.wav": "eda2cc674e4466362a92b9b76364d727d4cce23d03c7ee9a210118da6b1b7529"
+  },
+  "metrics": [
+    {
+      "experiment": "baseline",
+      "data_source": "phone_recordings",
+      "endpoint": "True",
+      "feature_dim": "13",
+      "correct": "7",
+      "test_count": "10",
+      "accuracy_percent": "70.0"
+    },
+    {
+      "experiment": "E1_no_endpoint",
+      "data_source": "phone_recordings",
+      "endpoint": "False",
+      "feature_dim": "13",
+      "correct": "7",
+      "test_count": "10",
+      "accuracy_percent": "70.0"
+    },
+    {
+      "experiment": "E2_mfcc_delta",
+      "data_source": "phone_recordings",
+      "endpoint": "True",
+      "feature_dim": "26",
+      "correct": "9",
+      "test_count": "10",
+      "accuracy_percent": "90.0"
+    }
+  ]
+}

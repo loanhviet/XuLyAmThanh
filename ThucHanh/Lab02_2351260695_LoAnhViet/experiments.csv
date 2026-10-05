@@ -1,0 +1,4 @@
+﻿experiment,data_source,endpoint,feature_dim,correct,test_count,accuracy_percent
+baseline,phone_recordings,True,13,8,10,80.0
+E1_no_endpoint,phone_recordings,False,13,7,10,70.0
+E2_mfcc_delta,phone_recordings,True,26,8,10,80.0

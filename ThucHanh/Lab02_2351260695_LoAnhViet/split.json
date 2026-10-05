@@ -1,0 +1,53 @@
+{
+  "data_source": "phone_recordings",
+  "dataset": "/home/viet/projects/TLU/XuLyAmThanh/ThucHanh/Lab02_2351260695_LoAnhViet/dataset",
+  "train": {
+    "khong": [
+      "khong/khong_01.wav",
+      "khong/khong_02.wav",
+      "khong/khong_03.wav"
+    ],
+    "mot": [
+      "mot/mot_01.wav",
+      "mot/mot_02.wav",
+      "mot/mot_03.wav"
+    ],
+    "hai": [
+      "hai/hai_01.wav",
+      "hai/hai_02.wav",
+      "hai/hai_03.wav"
+    ],
+    "ba": [
+      "ba/ba_01.wav",
+      "ba/ba_02.wav",
+      "ba/ba_03.wav"
+    ],
+    "bon": [
+      "bon/bon_01.wav",
+      "bon/bon_02.wav",
+      "bon/bon_03.wav"
+    ]
+  },
+  "test": {
+    "khong": [
+      "khong/khong_04.wav",
+      "khong/khong_05.wav"
+    ],
+    "mot": [
+      "mot/mot_04.wav",
+      "mot/mot_05.wav"
+    ],
+    "hai": [
+      "hai/hai_04.wav",
+      "hai/hai_05.wav"
+    ],
+    "ba": [
+      "ba/ba_04.wav",
+      "ba/ba_05.wav"
+    ],
+    "bon": [
+      "bon/bon_04.wav",
+      "bon/bon_05.wav"
+    ]
+  }
+}
