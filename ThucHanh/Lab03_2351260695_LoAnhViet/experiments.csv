@@ -1,0 +1,6 @@
+﻿experiment,states,dimensions,covariance,train_accuracy,test_accuracy,max_iter_models,status
+E1_states3,3,39,diag,1.0,1.0,0,ok
+baseline_states5_39D,5,39,diag,1.0,1.0,0,ok
+E1_states7,7,39,diag,1.0,1.0,1,ok
+E2_mfcc13,5,13,diag,1.0,1.0,0,ok
+E3_full,5,39,full,,,,skipped: quá ít frame/state so với D=39; E3 chỉ yêu cầu nếu đủ dữ liệu

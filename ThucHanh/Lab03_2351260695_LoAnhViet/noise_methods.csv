@@ -1,0 +1,4 @@
+﻿method,clean_accuracy,noise_accuracy
+HMM_39D,1.0,0.2
+DTW_shared_39D,1.0,0.6
+DTW_Lab2_13D,1.0,0.2

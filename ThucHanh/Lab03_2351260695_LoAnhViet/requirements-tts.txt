@@ -1,0 +1,2 @@
+# Optional: needed only to regenerate synthetic speech over the network.
+edge-tts==7.3.1

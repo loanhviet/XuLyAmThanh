@@ -1,0 +1,49 @@
+{
+  "voices": [
+    "vi-VN-NamMinhNeural"
+  ],
+  "words": {
+    "mo": "mở",
+    "dong": "đóng",
+    "len": "lên",
+    "xuong": "xuống",
+    "dung": "dừng"
+  },
+  "styles": [
+    [
+      -15,
+      -4
+    ],
+    [
+      -8,
+      2
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      8,
+      -2
+    ],
+    [
+      15,
+      4
+    ],
+    [
+      3,
+      1
+    ],
+    [
+      -4,
+      -1
+    ],
+    [
+      11,
+      3
+    ]
+  ],
+  "seed": 695,
+  "engine": "edge-tts",
+  "engine_version": "7.3.1"
+}

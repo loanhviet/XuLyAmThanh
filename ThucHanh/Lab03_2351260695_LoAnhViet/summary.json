@@ -1,0 +1,52 @@
+{
+  "labels": [
+    "dong",
+    "dung",
+    "len",
+    "mo",
+    "xuong"
+  ],
+  "config": {
+    "sr": 16000,
+    "n_fft": 512,
+    "win_length": 400,
+    "hop_length": 160,
+    "n_mfcc": 13,
+    "n_mels": 26,
+    "top_db": 30.0,
+    "dynamic": true,
+    "n_states": 5,
+    "covariance_type": "diag",
+    "n_iter": 80,
+    "tol": 0.001,
+    "seed": 695
+  },
+  "train_count": 30,
+  "test_count": 10,
+  "dataset_path": "/home/viet/projects/TLU/XuLyAmThanh/ThucHanh/Lab03_2351260695_LoAnhViet/dataset",
+  "data_source": "synthetic_tts",
+  "is_synthetic": true,
+  "voices": [
+    "vi-VN-NamMinhNeural"
+  ],
+  "train_accuracy": 1.0,
+  "test_accuracy": 1.0,
+  "noise_accuracy": 0.2,
+  "snr_db": 20,
+  "noise_drop_percentage_points": 80.0,
+  "dtw_shared_accuracy": 1.0,
+  "dtw_lab2_accuracy": 1.0,
+  "dtw_shared_noise_accuracy": 0.6,
+  "dtw_lab2_noise_accuracy": 0.2,
+  "notices": [],
+  "lexicon_missing": [
+    "dong",
+    "dung",
+    "len",
+    "mo",
+    "xuong"
+  ],
+  "protocol": "Fixed 5-state 39-D baseline; ablations descriptive, no hyperparameter selection using test.",
+  "lm_note": "Corpus tự tạo; previous-word contexts giả định, không báo accuracy nhận dạng chuỗi thực.",
+  "speaker_note": "Cùng synthetic voice ở train/test; không đánh giá khái quát sang người nói thật."
+}
